@@ -117,7 +117,7 @@ public abstract class NotificationState {
     }
 
     /**
-     * Gets the appropriate icon needed for notifications.
+     * Gets the normal icons needed for notifications.
      */
     public abstract int getIcon();
 
