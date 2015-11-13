@@ -38,6 +38,8 @@ LOCAL_RESOURCE_DIR += packages/apps/PhoneCommon/res
 
 LOCAL_JAVA_LIBRARIES += telephony-common
 
+LOCAL_JAVA_LIBRARIES += telephony-common
+
 LOCAL_STATIC_JAVA_LIBRARIES := android-common
 LOCAL_STATIC_JAVA_LIBRARIES += android-common-framesequence
 LOCAL_STATIC_JAVA_LIBRARIES += android-support-v4
