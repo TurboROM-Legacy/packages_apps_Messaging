@@ -33,7 +33,7 @@
     <string name="set">Set</string>
     <string name="no">Cancel</string>
     <string name="pref_messages_to_save">Set number of messages to save</string>
-    
+
     <!-- Swipe to delete conversation -->
     <string name="swipe_to_delete_conversation_pref_title">Swipe to delete</string>
     <string name="swipe_to_delete_conversation_pref_summary">Swipe to the right to delete a conversation</string>
@@ -120,4 +120,8 @@
     <string name="operation_to_card_memory">Copy message to SIM card</string>
     <string name="slot1">SIM 1</string>
     <string name="slot2">SIM 2</string>
+
+    <!-- Show emoticons -->
+    <string name="show_emoticons_pref_title">Emoticons access</string>
+    <string name="show_emoticons_pref_summary">Show the emoticons key on the keyboard</string>
 </resources>

@@ -31,4 +31,8 @@
     <string name="unicode_stripping_leave_intact_value" translatable="false">unicode_intact</string>
     <string name="unicode_stripping_non_encodable_value" translatable="false">unicode_non_encodable</string>
     <string name="unicode_stripping_all_value" translatable="false">unicode_all</string>
+
+    <!-- Preference keys for user-visible settings -->
+    <!-- Application-wide settings -->
+    <bool name="show_emoticons_pref_default" translatable="false">true</bool>
 </resources>
