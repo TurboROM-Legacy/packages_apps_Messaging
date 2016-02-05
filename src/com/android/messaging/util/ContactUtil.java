@@ -42,7 +42,7 @@ import com.android.messaging.datamodel.FrequentContactsCursorQueryData;
 import com.android.messaging.datamodel.data.ParticipantData;
 import com.android.messaging.sms.MmsSmsUtils;
 import com.android.messaging.ui.contact.AddContactsConfirmationDialog;
-import com.cyanogen.lookup.phonenumber.response.LookupResponse;
+import com.turbo.lookup.phonenumber.response.LookupResponse;
 import com.google.common.annotations.VisibleForTesting;
 
 /**

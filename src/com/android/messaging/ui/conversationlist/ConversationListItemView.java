@@ -40,7 +40,7 @@ import com.android.messaging.BugleApplication;
 import com.android.messaging.Factory;
 import com.android.messaging.util.AccessibilityUtil;
 import com.android.messaging.util.ContactUtil;
-import com.cyanogenmod.messaging.lookup.LookupProviderManager;
+import com.turbo.messaging.lookup.LookupProviderManager;
 import com.android.messaging.R;
 import com.android.messaging.annotation.VisibleForAnimation;
 import com.android.messaging.datamodel.MessagingContentProvider;
@@ -50,7 +50,7 @@ import com.android.messaging.datamodel.data.MessageData;
 import com.android.messaging.datamodel.media.UriImageRequestDescriptor;
 import com.android.messaging.sms.MmsUtils;
 import com.android.messaging.ui.AsyncImageView;
-import com.cyanogenmod.messaging.ui.AttributionContactIconView;
+import com.turbo.messaging.ui.AttributionContactIconView;
 import com.android.messaging.ui.AudioAttachmentView;
 import com.android.messaging.ui.SnackBar;
 import com.android.messaging.ui.SnackBarInteraction;
@@ -62,8 +62,8 @@ import com.android.messaging.util.PhoneUtils;
 import com.android.messaging.util.Typefaces;
 import com.android.messaging.util.UiUtils;
 import com.android.messaging.util.UriUtil;
-import com.cyanogen.lookup.phonenumber.response.LookupResponse;
-import com.cyanogenmod.messaging.util.PrefsUtils;
+import com.turbo.lookup.phonenumber.response.LookupResponse;
+import com.turbo.messaging.util.PrefsUtils;
 
 import java.util.List;
 

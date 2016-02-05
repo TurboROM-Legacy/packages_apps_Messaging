@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package com.cyanogenmod.messaging.quickmessage;
+package com.turbo.messaging.quickmessage;
 
 import android.app.KeyguardManager;
 import android.app.KeyguardManager.KeyguardLock;

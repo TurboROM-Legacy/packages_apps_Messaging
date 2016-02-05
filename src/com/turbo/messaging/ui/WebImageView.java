@@ -14,7 +14,7 @@
 * limitations under the License.
 */
 
-package com.cyanogenmod.messaging.ui;
+package com.turbo.messaging.ui;
 
 import android.annotation.Nullable;
 import android.content.Context;

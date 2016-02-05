@@ -1,4 +1,4 @@
-package com.cyanogenmod.messaging.quickmessage;
+package com.turbo.messaging.quickmessage;
 
 import android.content.Intent;
 import android.app.PendingIntent;
@@ -15,7 +15,7 @@ import android.view.View;
 
 import com.android.contacts.common.util.MaterialColorMapUtils;
 import com.android.messaging.R;
-import com.cyanogenmod.messaging.util.PrefsUtils;
+import com.turbo.messaging.util.PrefsUtils;
 
 public class QuickMessageHelper {
 

@@ -81,8 +81,8 @@ import com.android.messaging.util.RingtoneUtil;
 import com.android.messaging.util.ThreadUtil;
 import com.android.messaging.util.UriUtil;
 
-import com.cyanogenmod.messaging.quickmessage.QuickMessageHelper;
-import com.cyanogenmod.messaging.quickmessage.NotificationInfo;
+import com.turbo.messaging.quickmessage.QuickMessageHelper;
+import com.turbo.messaging.quickmessage.NotificationInfo;
 
 import java.util.HashSet;
 import java.util.Iterator;

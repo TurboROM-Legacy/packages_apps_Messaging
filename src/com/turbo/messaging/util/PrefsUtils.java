@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.cyanogenmod.messaging.util;
+package com.turbo.messaging.util;
 
 import android.content.Context;
 import android.content.SharedPreferences;

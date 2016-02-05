@@ -31,7 +31,7 @@ import com.android.messaging.datamodel.media.AvatarRequestDescriptor;
 import com.android.messaging.util.Assert;
 import com.android.messaging.util.AvatarUriUtil;
 import com.android.messaging.util.ContactUtil;
-import com.cyanogen.lookup.phonenumber.response.LookupResponse;
+import com.turbo.lookup.phonenumber.response.LookupResponse;
 
 /**
  * A view used to render contact icons. This class derives from AsyncImageView, so it loads contact

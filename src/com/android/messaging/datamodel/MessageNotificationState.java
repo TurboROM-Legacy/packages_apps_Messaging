@@ -57,7 +57,7 @@ import com.android.messaging.util.ConversationIdSet;
 import com.android.messaging.util.LogUtil;
 import com.android.messaging.util.PendingIntentConstants;
 import com.android.messaging.util.UriUtil;
-import com.cyanogenmod.messaging.quickmessage.NotificationInfo;
+import com.turbo.messaging.quickmessage.NotificationInfo;
 
 import com.google.common.collect.Lists;
 
