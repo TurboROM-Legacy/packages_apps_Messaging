@@ -14,7 +14,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.cyanogenmod.messaging.ui;
+package com.turbo.messaging.ui;
 
 import android.content.Context;
 import android.content.res.Resources;
@@ -41,8 +41,8 @@ import com.android.messaging.util.AccessibilityUtil;
 import com.android.messaging.util.AvatarUriUtil;
 import com.android.messaging.util.ImageUtils;
 import com.android.messaging.util.UiUtils;
-import com.cyanogen.lookup.phonenumber.response.LookupResponse;
-import com.cyanogenmod.messaging.quickmessage.QuickMessage;
+import com.turbo.lookup.phonenumber.response.LookupResponse;
+import com.turbo.messaging.quickmessage.QuickMessage;
 
 /**
  * The view for a single message in a quickmessage.

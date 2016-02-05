@@ -528,7 +528,7 @@
              to the foreground.We exclude from recent apps since this is accessible
              through a notification when appropriate. -->
          <activity
-            android:name="com.cyanogenmod.messaging.quickmessage.QuickMessagePopup"
+            android:name="com.turbo.messaging.quickmessage.QuickMessagePopup"
             android:theme="@style/BugleTheme.QMPopUp"
             android:configChanges="orientation|screenSize"
             android:launchMode="singleTop"
@@ -536,7 +536,7 @@
             android:excludeFromRecents="true"
             android:exported="true" />
 
-        <receiver android:name="com.cyanogenmod.messaging.quickmessage.ClearAllReceiver" />
+        <receiver android:name="com.turbo.messaging.quickmessage.ClearAllReceiver" />
 
     </application>
 

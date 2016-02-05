@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.cyanogenmod.messaging.ui;
+package com.turbo.messaging.ui;
 
 import android.content.Context;
 import android.support.v4.view.ViewPager;

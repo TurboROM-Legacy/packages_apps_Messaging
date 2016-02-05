@@ -14,7 +14,7 @@
      limitations under the License.
 -->
 
-<com.cyanogenmod.messaging.ui.QuickMessageView
+<com.turbo.messaging.ui.QuickMessageView
     xmlns:android="http://schemas.android.com/apk/res/android"
               xmlns:app="http://schemas.android.com/apk/res-auto"
               android:id="@+id/QuickMessageContentlayout"
@@ -55,14 +55,14 @@
 
     </LinearLayout>
 
-    <com.cyanogenmod.messaging.ui.ConversationQuickMessageView
+    <com.turbo.messaging.ui.ConversationQuickMessageView
         android:id="@+id/conversation_message"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:paddingLeft="@dimen/material_16dp_keyline"
         android:paddingRight="@dimen/material_16dp_keyline">
 
-        <com.cyanogenmod.messaging.ui.AttributionContactIconView
+        <com.turbo.messaging.ui.AttributionContactIconView
             android:id="@+id/conversation_icon"
             android:layout_width="@dimen/conversation_message_contact_icon_size"
             android:layout_height="@dimen/conversation_message_contact_icon_size"
@@ -97,7 +97,7 @@
 
         </com.android.messaging.ui.conversation.ConversationMessageBubbleView>
 
-    </com.cyanogenmod.messaging.ui.ConversationQuickMessageView>
+    </com.turbo.messaging.ui.ConversationQuickMessageView>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -176,4 +176,4 @@
                     android:visibility="gone" />
             </FrameLayout>
     </LinearLayout>
-</com.cyanogenmod.messaging.ui.QuickMessageView>
+</com.turbo.messaging.ui.QuickMessageView>

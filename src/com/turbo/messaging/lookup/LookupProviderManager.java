@@ -13,7 +13,7 @@
 * See the License for the specific language governing permissions and
 * limitations under the License.
 */
-package com.cyanogenmod.messaging.lookup;
+package com.turbo.messaging.lookup;
 
 import android.app.Activity;
 import android.app.Application;
@@ -24,10 +24,10 @@ import android.telephony.PhoneNumberUtils;
 import android.text.TextUtils;
 import android.util.Log;
 
-import com.cyanogen.lookup.phonenumber.provider.LookupProviderImpl;
-import com.cyanogen.lookup.phonenumber.util.LookupHandlerThread;
-import com.cyanogen.lookup.phonenumber.request.LookupRequest;
-import com.cyanogen.lookup.phonenumber.response.LookupResponse;
+import com.turbo.lookup.phonenumber.provider.LookupProviderImpl;
+import com.turbo.lookup.phonenumber.util.LookupHandlerThread;
+import com.turbo.lookup.phonenumber.request.LookupRequest;
+import com.turbo.lookup.phonenumber.response.LookupResponse;
 
 import java.util.ArrayList;
 import java.util.List;

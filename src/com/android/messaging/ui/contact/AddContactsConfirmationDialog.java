@@ -28,12 +28,12 @@ import android.widget.Button;
 import android.widget.TextView;
 
 import com.android.messaging.BugleApplication;
-import com.cyanogenmod.messaging.lookup.LookupProviderManager.LookupProviderListener;
+import com.turbo.messaging.lookup.LookupProviderManager.LookupProviderListener;
 import com.android.messaging.R;
-import com.cyanogenmod.messaging.ui.AttributionContactIconView;
+import com.turbo.messaging.ui.AttributionContactIconView;
 import com.android.messaging.ui.UIIntents;
 import com.android.messaging.util.AccessibilityUtil;
-import com.cyanogen.lookup.phonenumber.response.LookupResponse;
+import com.turbo.lookup.phonenumber.response.LookupResponse;
 
 public class AddContactsConfirmationDialog implements DialogInterface.OnClickListener,
         LookupProviderListener {

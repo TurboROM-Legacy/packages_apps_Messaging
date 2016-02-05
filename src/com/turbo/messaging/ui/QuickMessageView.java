@@ -1,4 +1,4 @@
-package com.cyanogenmod.messaging.ui;
+package com.turbo.messaging.ui;
 
 
 import android.content.Context;
@@ -30,11 +30,11 @@ import com.android.messaging.ui.conversation.SimIconView;
 import com.android.messaging.util.AvatarUriUtil;
 import com.android.messaging.util.ContactUtil;
 import com.android.messaging.util.UiUtils;
-import com.cyanogen.lookup.phonenumber.response.LookupResponse;
-import com.cyanogenmod.messaging.lookup.LookupProviderManager;
-import com.cyanogenmod.messaging.quickmessage.ManageWakeLock;
-import com.cyanogenmod.messaging.quickmessage.QuickMessage;
-import com.cyanogenmod.messaging.quickmessage.QuickMessageHelper;
+import com.turbo.lookup.phonenumber.response.LookupResponse;
+import com.turbo.messaging.lookup.LookupProviderManager;
+import com.turbo.messaging.quickmessage.ManageWakeLock;
+import com.turbo.messaging.quickmessage.QuickMessage;
+import com.turbo.messaging.quickmessage.QuickMessageHelper;
 
 public class QuickMessageView extends LinearLayout implements TextWatcher,
         LookupProviderManager.LookupProviderListener {

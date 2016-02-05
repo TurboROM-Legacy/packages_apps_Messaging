@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.cyanogenmod.messaging.quickmessage;
+package com.turbo.messaging.quickmessage;
 
 import android.app.Activity;
 import android.app.NotificationManager;
@@ -47,8 +47,8 @@ import com.android.messaging.datamodel.NoConfirmationSmsSendService;
 import com.android.messaging.datamodel.action.MarkAsReadAction;
 import com.android.messaging.ui.PlainTextEditText;
 import com.android.messaging.util.UnicodeFilter;
-import com.cyanogenmod.messaging.ui.QuickMessageView;
-import com.cyanogenmod.messaging.util.PrefsUtils;
+import com.turbo.messaging.ui.QuickMessageView;
+import com.turbo.messaging.util.PrefsUtils;
 
 import java.util.ArrayList;
 
@@ -59,9 +59,9 @@ public class QuickMessagePopup extends Activity {
 
     // Intent bungle fields
     public static final String SMS_NOTIFICATION_OBJECT_EXTRA =
-            "com.cyanaogenmod.messaging.NOTIFICATION_OBJECT";
+            "com.turbo.messaging.NOTIFICATION_OBJECT";
     public static final String QR_SHOW_KEYBOARD_EXTRA =
-            "com.cyanaogenmod.messaging.QR_SHOW_KEYBOARD";
+            "com.turbo.messaging.QR_SHOW_KEYBOARD";
 
     // View items
     private Button mCloseButton;

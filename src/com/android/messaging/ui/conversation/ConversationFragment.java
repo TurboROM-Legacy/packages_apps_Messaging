@@ -106,8 +106,8 @@ import com.android.messaging.util.SafeAsyncTask;
 import com.android.messaging.util.TextUtil;
 import com.android.messaging.util.UiUtils;
 import com.android.messaging.util.UriUtil;
-import com.cyanogen.lookup.phonenumber.response.LookupResponse;
-import com.cyanogenmod.messaging.lookup.LookupProviderManager.LookupProviderListener;
+import com.turbo.lookup.phonenumber.response.LookupResponse;
+import com.turbo.messaging.lookup.LookupProviderManager.LookupProviderListener;
 import com.google.common.annotations.VisibleForTesting;
 
 import java.io.File;

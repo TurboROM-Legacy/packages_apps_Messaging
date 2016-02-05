@@ -1,4 +1,4 @@
-package com.cyanogenmod.messaging.quickmessage;
+package com.turbo.messaging.quickmessage;
 
 import android.net.Uri;
 import android.os.Parcel;

@@ -23,7 +23,7 @@ import com.android.messaging.datamodel.DatabaseHelper.MessageColumns;
 import com.android.messaging.datamodel.data.MessageData;
 import com.android.messaging.util.ConversationIdSet;
 
-import com.cyanogenmod.messaging.quickmessage.NotificationInfo;
+import com.turbo.messaging.quickmessage.NotificationInfo;
 
 import java.util.ArrayList;
 import java.util.HashSet;
