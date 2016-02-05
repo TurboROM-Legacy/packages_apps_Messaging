@@ -45,8 +45,6 @@ import com.android.messaging.util.LogUtil;
 import com.android.messaging.util.OsUtil;
 import com.android.messaging.util.PhoneUtils;
 import com.android.messaging.util.Trace;
-import com.android.messaging.util.BlacklistObserver;
-import com.android.messaging.util.BlacklistSync;
 import com.turbo.messaging.lookup.ILookupClient;
 import com.turbo.messaging.lookup.LookupProviderManager;
 import com.google.common.annotations.VisibleForTesting;
