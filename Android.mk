@@ -54,7 +54,6 @@ LOCAL_STATIC_JAVA_LIBRARIES += libphotoviewer
 LOCAL_STATIC_JAVA_LIBRARIES += libphonenumber
 LOCAL_STATIC_JAVA_LIBRARIES += colorpicker
 LOCAL_STATIC_JAVA_LIBRARIES += contacts-picaso
-LOCAL_STATIC_JAVA_LIBRARIES += glide
 
 include $(LOCAL_PATH)/version.mk
 
