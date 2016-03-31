@@ -124,11 +124,6 @@ public abstract class NotificationState {
     public abstract int getIcon();
 
     /**
-     * Gets the breathing icons needed for notifications.
-     */
-    public abstract int getBreathIcon();
-
-    /**
      * @return the type of notification that should be used from {@link RealTimeChatNotifications}
      * so that the proper ringtone and vibrate settings can be used.
      */

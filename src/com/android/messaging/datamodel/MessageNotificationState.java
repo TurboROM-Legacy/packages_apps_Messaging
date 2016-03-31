@@ -118,11 +118,16 @@ public abstract class MessageNotificationState extends NotificationState {
 
     @Override
     public int getIcon() {
-       return R.drawable.ic_sms_light;
+	if (breathEnabled()) {
+	    return R.drawable.stat_notify_sms_breath;
+	} else {
+	    return R.drawable.ic_sms_light;
+	}
     }
 
-    public int getBreathIcon() {
-       return R.drawable.stat_notify_sms_breath;
+    private static boolean breathEnabled() {
+         return Settings.System.getInt(Factory.get().getApplicationContext().getContentResolver(),
+                 Settings.System.KEY_SMS_BREATH, 0) == 1;
     }
 
     @Override
@@ -420,12 +425,11 @@ public abstract class MessageNotificationState extends NotificationState {
 
         @Override
         public int getIcon() {
-            return R.drawable.ic_sms_multi_light;
-        }
-
-        @Override
-        public int getBreathIcon() {
-            return R.drawable.stat_notify_sms_breath_multi;  
+            if (breathEnabled()) {
+                return R.drawable.stat_notify_sms_breath;
+            } else {
+                return R.drawable.ic_sms_multi_light;
+            }
         }
 
         @Override
