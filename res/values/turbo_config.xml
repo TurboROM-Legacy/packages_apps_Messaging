@@ -14,14 +14,8 @@
     See the License for the specific language governing permissions and
     limitations under the License.
 -->
+
 <resources>
-
-    <!-- Preference keys for user-visible settings -->
-    <!-- Application-wide settings -->
-    <string name="swipe_right_deletes_conversation_key" translatable="false">swipe_right_deletes_conversation</string>
-
-    <!-- This should really go into a config xml, but whoever wrote this app is an idiot, so follow their pattern -->
-    <bool name="swipe_right_deletes_conversation_default" translatable="false">false</bool>
-    
-    <string name="mms_auto_enable_data_pref_key" translatable="false">mms_auto_enable_data</string>
+    <!-- Data enabling for MMS -->
+    <bool name="enable_data_for_mms">false</bool>
 </resources>
