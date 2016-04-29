@@ -75,6 +75,8 @@ else
     LOCAL_REQUIRED_MODULES:= libframesequence libgiftranscode
 endif
 
+contacts_common_dir := ../ContactsCommon
+
 # utilize ContactsCommon's phone-number-based contact-info lookup
 ifeq ($(contacts_common_dir),)
   contacts_common_dir := ../ContactsCommon
