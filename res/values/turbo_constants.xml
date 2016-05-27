@@ -23,5 +23,7 @@
     <!-- This should really go into a config xml, but whoever wrote this app is an idiot, so follow their pattern -->
     <bool name="swipe_right_deletes_conversation_default" translatable="false">false</bool>
     
+    <!-- Data enabling for MMS -->
+    <bool name="enable_data_for_mms" translatable="false">false</bool>
     <string name="mms_auto_enable_data_pref_key" translatable="false">mms_auto_enable_data</string>
 </resources>
